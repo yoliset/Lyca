@@ -15,11 +15,11 @@
             transform: translate(-50%, -50%);
             width: 100px;
             height: 40px;
-            color: white;
+            color: black;
             text-decoration: none;
-            
+            border-color:#F4F3EF   ;
            
-            font-size: 20px;
+            font-size: 15px;
             overflow: hidden;
             background:#FFC300 ;
         }
@@ -32,16 +32,17 @@
             left: 0;
             bottom: 0;
             border-style: solid;
-            border-color:rgb(218,44,56) ;
+            border-color:#F4F3EF   ;
             border-width: 80px 100px;
             z-index: -1;
             transform: rotate(360deg);
             transition: 1s;
             transform-origin: left;
+        color: black;
         }
   
         .tuyo:hover::before {
-            border-color: black;
+            border-color: #a6b0b8  ;
             transform: rotate(60deg);
         }
 

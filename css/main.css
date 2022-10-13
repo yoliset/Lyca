@@ -29,7 +29,7 @@ p, a {
 
 /*------------------------------------HEADER */
 .navbar {
-    background:rgb(218,44,56) !important;
+    background:#F4F3EF !important;
     border: none;
 }
 .navbar-brand {
@@ -38,7 +38,7 @@ p, a {
     
 }
 .navbar a {
-    color:#fff !important;
+    color: #374c61 !important;
 }
 .nav li a:hover, .nav li a:focus {
     font-weight: bold !important;
@@ -86,9 +86,9 @@ p, a {
 
 /* ---------------------------------------FOOTER -- */
 footer {
-    padding: 10px 0 15px 0;
-    background: rgb(218,44,56);
-    color: #fff;
+    padding: 2px 0 1px 0;
+    background: #F4F3EF;
+    color: #334960 ;
 }
 
 @-webkit-keyframes bounce {
