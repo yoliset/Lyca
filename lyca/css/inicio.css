@@ -1,0 +1,63 @@
+
+
+
+
+.icono{
+    width: 100px;
+  height: 100px;
+        
+}
+
+.tuyo{
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 40px;
+            color: white;
+            text-decoration: none;
+            
+           
+            font-size: 20px;
+            overflow: hidden;
+            background:#FFC300 ;
+        }
+  
+    .tuyo::before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: 0;
+            bottom: 0;
+            border-style: solid;
+            border-color:rgb(218,44,56) ;
+            border-width: 80px 100px;
+            z-index: -1;
+            transform: rotate(360deg);
+            transition: 1s;
+            transform-origin: left;
+        }
+  
+        .tuyo:hover::before {
+            border-color: black;
+            transform: rotate(60deg);
+        }
+
+
+/*Botón*/
+.dropdown-menu{
+     font-size: 15px;
+    background:black;
+   
+    }
+
+/* Animacion para la letra*/
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
