@@ -54,11 +54,73 @@
    
     }
 
-/* Animacion para la letra*/
+/* servicios y forma de pago */
 
+.caja0 {
+    
+    padding-top: 50px;
+    background:black;
+    text-align: center;
+    color: white;
+    background-size:contain;
+}
+.caja1 {
+    
+    font-size: 50px;
+    font-family:inherit;
+   background-size:contain;
+    
+}
+.caja2 {
+    padding-top: 30px;
+    font-size: 30px; 
+}
+.caja3 {
+    color:gold;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight:bolder;
+    -webkit-text-stroke: 1px gold;
+    text-shadow: 0 0 6px #e5be01;
+    
+    
+}
+.cajon{
+    color:gold;
+    text-decoration: none;
+    font-weight:bolder;
+    -webkit-text-stroke: 0.2px gold;
+    text-shadow: 0 0 1px #e5be01;
+    
+}
+.caja4 {
+    padding-bottom: 180px;  
+}
+.caja5 {
+    padding-bottom: 20px;
+    background-size:contain;
+    
+}
+.caja6 {
+   
+    font-size: 20px;
+   text-align: end;
+    background-size:contain;
+    
+}
+.sombra{
+   
+    border-radius:30px;
+   background: white;
+    border-color: aliceblue;
+    padding: 20px;
+    
+    
+}
 
 .contenedor{
     position: relative;
     display: inline-block;
     text-align: center;
 }
+/* About Carousel */

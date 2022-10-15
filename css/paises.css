@@ -1,3 +1,47 @@
 
 
 /*# sourceMappingURL=portafolio.css.map */
+/*-------------------------------------CONTACTO*/
+.cama{
+    background-image :url(../img/imagen/fondo%202.jpg);
+   background-size:contain;
+    background-repeat:no-repeat;
+     width: 100%;
+  height: 100%;
+}
+.icon1{
+    font-size: 30px;
+    color: white;
+    background: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+.icon2{
+    float: right;
+     }
+.tuyo{
+            position: absolute;
+             top: 100%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            width: 170px;
+            height: 40px;
+            color: black;
+            text-decoration: none;
+            border-color:#F4F3EF   ;
+           
+            font-size: 15px;
+            overflow: hidden;
+            background:#FFC300 ;
+        }
+
+
+  /* ---------------------------------------FOOTER -- */
+
+
+@-webkit-keyframes bounce {
+  100% {
+    top: -30px;
+    text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 #CCC, 0 7px 0 #CCC, 0 8px 0 #CCC, 0 9px 0 #CCC, 0 30px 30px rgba(0, 0, 0, 0.3); } }
