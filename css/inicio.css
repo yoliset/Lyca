@@ -10,7 +10,7 @@
 .icono4{
     font-size: 13px;
 }
-@media (max-width:1200px) and (min-width:500px) {
+@media (max-width:1200px) and (min-width:300px) {
     .icono4{
        font-size: 8px;
     }
@@ -86,7 +86,7 @@
     font-family:inherit;
    background-size:contain;
 }
-    @media (max-width:1000px) and (min-width:500px) {
+    @media (max-width:1000px) and (min-width:300px) {
     .caja1{
        font-size: 35px;
     }
@@ -95,7 +95,7 @@
     font-size:30px; 
     font-family: inherit;
 }
- @media (max-width:1000px) and (min-width:500px) {
+ @media (max-width:1000px) and (min-width:300px) {
     .letra{
        font-size: 20px;
     }
@@ -106,7 +106,7 @@
     font-family:inherit;
     font-size: 30px; 
 }
-@media (max-width:1000px) and (min-width:500px) {
+@media (max-width:1000px) and (min-width:300px) {
     .caja2{
        font-size: 20px;
     }
@@ -121,7 +121,7 @@
     
     
 }
-@media (max-width:1000px) and (min-width:500px) {
+@media (max-width:1000px) and (min-width:300px) {
     .caja3{
        font-size: 20px;
     }
@@ -144,7 +144,7 @@
     
     
 }
-@media (max-width:1000px) and (min-width:500px) {
+@media (max-width:1000px) and (min-width:300px) {
     .caja5{
        padding-top: 40px;
     }
@@ -158,7 +158,7 @@
     top: -5px;
     font-family: inherit;
 }
-@media (max-width:1000px) and (min-width:500px) {
+@media (max-width:1000px) and (min-width:300px) {
     .caja6{
        font-size: 15px;
     }
@@ -200,9 +200,9 @@
     text-shadow: 1px 1px 1px gold;
      
 }
- @media (max-width:1000px) and (min-width:500px) {
+ @media (max-width:700px) and (min-width:300px) {
     .letra5{
-       font-size: 15px;
+       font-size: 10px;
         -webkit-text-stroke: 0px gold;
     text-shadow: 0px 0px 0px gold;
         padding-left:50px;
@@ -211,7 +211,7 @@
 .kio{
     position: relative; top : -140px;
 }
-@media (max-width:1000px) and (min-width:500px) {
+@media (max-width:1000px) and (min-width:300px) {
     .kio{
        font-size: 10px;
         position: relative; top : -80px;
@@ -223,7 +223,7 @@
  position: relative;
   bottom: -20px; left: -48px;
 }
-@media (max-width:400px) and (min-width:500px) {
+@media (max-width:400px) and (min-width:300px) {
     .caja90{
        position: relative;
   bottom: -200px; left: -49px;
@@ -234,7 +234,7 @@
  position: relative;
   bottom: -20px; left: -59px
 }
-@media (max-width:400px) and (min-width:500px) {
+@media (max-width:400px) and (min-width:300px) {
     .caja91{
        position: relative;
   bottom: -200px; left: -49px;
@@ -248,7 +248,7 @@ float: left;
   bottom: -40px; left: 80px;
     
 }
-@media (max-width:500px) and (min-width:500px) {
+@media (max-width:500px) and (min-width:300px) {
     .caja92{
         position: relative; bottom: -20px; left: 140px;
        
@@ -258,7 +258,7 @@ float: left;
 .icono7{
     font-size: 13px;
 }
-@media (max-width:1200px) and (min-width:500px) {
+@media (max-width:1200px) and (min-width:300px) {
     .icono7{
        font-size: 8px;
     }
