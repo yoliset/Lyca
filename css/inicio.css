@@ -7,6 +7,15 @@
   height: 100px;
         
 }
+.icono4{
+    font-size: 13px;
+}
+@media (max-width:1200px) and (min-width:500px) {
+    .icono4{
+       font-size: 8px;
+    }
+}
+
 
 .tuyo{
             position: absolute;
@@ -55,10 +64,17 @@
     }
 
 /* servicios y forma de pago */
+.cajasi {
+    
+    left:  200px;
+    width: 300px;
+   
+    background-size:contain;
+}
 
 .caja0 {
     
-    padding-top: 50px;
+    padding-top: 40px;
     background:black;
     text-align: center;
     color: white;
@@ -66,15 +82,35 @@
 }
 .caja1 {
     
-    font-size: 50px;
+    font-size: 60px;
     font-family:inherit;
    background-size:contain;
-    
 }
+    @media (max-width:1000px) and (min-width:500px) {
+    .caja1{
+       font-size: 35px;
+    }
+}
+.letra{
+    font-size:30px; 
+    font-family: inherit;
+}
+ @media (max-width:1000px) and (min-width:500px) {
+    .letra{
+       font-size: 20px;
+    }
+}   
+
+
 .caja2 {
-    padding-top: 30px;
+    font-family:inherit;
     font-size: 30px; 
 }
+@media (max-width:1000px) and (min-width:500px) {
+    .caja2{
+       font-size: 20px;
+    }
+}   
 .caja3 {
     color:gold;
     font-size: 35px;
@@ -85,6 +121,11 @@
     
     
 }
+@media (max-width:1000px) and (min-width:500px) {
+    .caja3{
+       font-size: 20px;
+    }
+} 
 .cajon{
     color:gold;
     text-decoration: none;
@@ -94,19 +135,33 @@
     
 }
 .caja4 {
-    padding-bottom: 180px;  
+    padding-bottom: 180px;
+    padding-top: 100px;
 }
+
 .caja5 {
     padding-bottom: 20px;
-    background-size:contain;
     
+    
+}
+@media (max-width:1000px) and (min-width:500px) {
+    .caja5{
+       padding-top: 40px;
+    }
 }
 .caja6 {
    
     font-size: 20px;
    text-align: end;
-    background-size:contain;
-    
+    padding-bottom: 160px;
+    margin-bottom: 40px;
+    top: -5px;
+    font-family: inherit;
+}
+@media (max-width:1000px) and (min-width:500px) {
+    .caja6{
+       font-size: 15px;
+    }
 }
 .sombra{
    
@@ -118,9 +173,93 @@
     
 }
 
+
 .contenedor{
     position: relative;
     display: inline-block;
     text-align: center;
 }
 /* About Carousel */
+ .sombra1{
+   
+   color:gold;
+    text-decoration: none;
+    font-weight:bolder;
+    -webkit-text-stroke: 0.2px gold;
+    text-shadow: 2px 2px 4px #e5be01;
+     font-family:inherit;
+    
+    
+}
+.letra5{
+    padding-left:120px;
+    color: white;
+    font-family: inherit;
+    
+    -webkit-text-stroke: 2px white;
+    text-shadow: 1px 1px 1px gold;
+     
+}
+ @media (max-width:1000px) and (min-width:500px) {
+    .letra5{
+       font-size: 15px;
+        -webkit-text-stroke: 0px gold;
+    text-shadow: 0px 0px 0px gold;
+        padding-left:50px;
+    }
+}   
+.kio{
+    position: relative; top : -140px;
+}
+@media (max-width:1000px) and (min-width:500px) {
+    .kio{
+       font-size: 10px;
+        position: relative; top : -80px;
+        
+    }
+}  
+
+.caja90{
+ position: relative;
+  bottom: -20px; left: -48px;
+}
+@media (max-width:400px) and (min-width:500px) {
+    .caja90{
+       position: relative;
+  bottom: -200px; left: -49px;
+        
+    }
+} 
+.caja91{
+ position: relative;
+  bottom: -20px; left: -59px
+}
+@media (max-width:400px) and (min-width:500px) {
+    .caja91{
+       position: relative;
+  bottom: -200px; left: -49px;
+        
+    }
+}
+.caja92{
+ text-align: left; 
+float: left;
+    position: relative;
+  bottom: -40px; left: 80px;
+    
+}
+@media (max-width:500px) and (min-width:500px) {
+    .caja92{
+        position: relative; bottom: -20px; left: 140px;
+       
+        
+    }
+}
+.icono7{
+    font-size: 13px;
+}
+@media (max-width:1200px) and (min-width:500px) {
+    .icono7{
+       font-size: 8px;
+    }
+}
