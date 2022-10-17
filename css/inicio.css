@@ -8,14 +8,35 @@
         
 }
 .icono4{
-    font-size: 13px;
+    font-size: 60px;
 }
-@media (max-width:1200px) and (min-width:300px) {
+@media (max-width:900px) and (min-width:300px) {
     .icono4{
-       font-size: 8px;
+       font-size: 17px;
     }
 }
 
+.cuadrado{
+     width: 1200px;
+    height: 260px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+    background-color: #1c1821;
+    color: white;
+    font-family:sans-serif;
+}
+@media (max-width:900px) and (min-width:200px) {
+    .cuadrado{
+       width: 370px;
+    height: 80px;
+    }
+}
 
 .tuyo{
             position: absolute;
@@ -83,7 +104,7 @@
 .caja1 {
     
     font-size: 60px;
-    font-family:inherit;
+    font-family:sans-serif;
    background-size:contain;
 }
     @media (max-width:1000px) and (min-width:300px) {
@@ -93,7 +114,7 @@
 }
 .letra{
     font-size:30px; 
-    font-family: inherit;
+    font-family:sans-serif;
 }
  @media (max-width:1000px) and (min-width:300px) {
     .letra{
@@ -103,7 +124,7 @@
 
 
 .caja2 {
-    font-family:inherit;
+    font-family:sans-serif;
     font-size: 30px; 
 }
 @media (max-width:1000px) and (min-width:300px) {
@@ -117,21 +138,36 @@
     text-decoration: none;
     font-weight:bolder;
     -webkit-text-stroke: 1px gold;
-    text-shadow: 0 0 6px #e5be01;
+    text-shadow: 0 0 1px #e5be01;
     
     
 }
+
 @media (max-width:1000px) and (min-width:300px) {
     .caja3{
        font-size: 20px;
     }
 } 
+.lou{
+     -webkit-text-stroke: 2px black;
+    text-shadow: 0 0 2px black;
+}
+
+
 .cajon{
+    color:#000035;
+    text-decoration: none;
+    font-weight:bolder;
+    -webkit-text-stroke: 0.2px #000035;
+    text-shadow: 0 0 1px #e5be01;
+    
+}
+.cajon10{
     color:gold;
     text-decoration: none;
     font-weight:bolder;
-    -webkit-text-stroke: 0.2px gold;
-    text-shadow: 0 0 1px #e5be01;
+    -webkit-text-stroke: 1px gold;
+    text-shadow: 0 1px 3px #e5be01;
     
 }
 .caja4 {
@@ -150,13 +186,14 @@
     }
 }
 .caja6 {
+   font-family:sans-serif;
    
     font-size: 20px;
    text-align: end;
-    padding-bottom: 160px;
-    margin-bottom: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     top: -5px;
-    font-family: inherit;
+    
 }
 @media (max-width:1000px) and (min-width:300px) {
     .caja6{
@@ -165,11 +202,11 @@
 }
 .sombra{
    
-    border-radius:30px;
-   background: white;
+    border-radius:60px;
+
     border-color: aliceblue;
-    padding: 20px;
-    
+    padding: 5px;
+    font-family:sans-serif;
     
 }
 
@@ -187,29 +224,31 @@
     font-weight:bolder;
     -webkit-text-stroke: 0.2px gold;
     text-shadow: 2px 2px 4px #e5be01;
-     font-family:inherit;
+     font-family:sans-serif;
     
     
 }
 .letra5{
+    font-size: 30px;
     padding-left:120px;
     color: white;
-    font-family: inherit;
+    font-family: sans-serif;
     
-    -webkit-text-stroke: 2px white;
-    text-shadow: 1px 1px 1px gold;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0px 0px 1px white;
      
 }
  @media (max-width:700px) and (min-width:300px) {
     .letra5{
        font-size: 10px;
-        -webkit-text-stroke: 0px gold;
+        -webkit-text-stroke: 0px white;
     text-shadow: 0px 0px 0px gold;
         padding-left:50px;
     }
 }   
 .kio{
     position: relative; top : -140px;
+   font-family:sans-serif;
 }
 @media (max-width:1000px) and (min-width:300px) {
     .kio{
@@ -219,42 +258,9 @@
     }
 }  
 
-.caja90{
- position: relative;
-  bottom: -20px; left: -48px;
-}
-@media (max-width:400px) and (min-width:300px) {
-    .caja90{
-       position: relative;
-  bottom: -200px; left: -49px;
-        
-    }
-} 
-.caja91{
- position: relative;
-  bottom: -20px; left: -59px
-}
-@media (max-width:400px) and (min-width:300px) {
-    .caja91{
-       position: relative;
-  bottom: -200px; left: -49px;
-        
-    }
-}
-.caja92{
- text-align: left; 
-float: left;
-    position: relative;
-  bottom: -40px; left: 80px;
-    
-}
-@media (max-width:500px) and (min-width:300px) {
-    .caja92{
-        position: relative; bottom: -20px; left: 140px;
-       
-        
-    }
-}
+
+
+
 .icono7{
     font-size: 13px;
 }
